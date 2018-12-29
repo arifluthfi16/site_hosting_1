@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
     ip = ip.substr(7);
   } 
 
-  res.render('index', { title: 'Express', ip ,author :'Arip'});
+  res.render('index', { title: 'Sakrato', ip ,author :'Arip'});
 });
 
 module.exports = router;
